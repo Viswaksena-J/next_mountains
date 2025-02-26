@@ -1,16 +1,16 @@
 'use client'
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 
 const ScrollIndicator = () => {
     const [activeSection, setActiveSection] = useState('start');
     
-    const sections = [
+    const sections = useMemo(() => [
         { id: "start", label: "Start" },
         { id: "first", label: "01" },
         { id: "second", label: "02" },
         { id: "third", label: "03" },
-    ];
+    ], []);
 
     useEffect(() => {
         const handleScroll = () => {
