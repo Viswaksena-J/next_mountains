@@ -32,7 +32,7 @@ const ScrollIndicator = () => {
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
-    }, []);
+    }, [sections]);
 
     return (
         <div className="fixed z-10 top-[250px] right-16 flex items-center">

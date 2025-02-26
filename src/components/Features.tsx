@@ -65,7 +65,7 @@ export const Features = () => {
                         </div>
                         <div>
                             <h2 className="max-w-[450px] text-[50px] font-medium leading-[1.2] font-['Chronicle_Display']">Understand Your Map & Timing</h2>
-                            <p className="mt-[35px] mb-[32px] text-[15px]">To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction.</p>
+                            <p className="mt-[35px] mb-[32px] text-[15px]">To start, print out the hiking guide and map. If it's raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I'll read the guide and know that say, in a mile, I make a right turn at the junction.</p>
                         </div>
                         <div className="text-[#fbd784] flex items-center text-[14px]">
                             <a className="font-bold">read more</a>
