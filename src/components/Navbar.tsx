@@ -3,8 +3,8 @@ import Image from "next/image"
 export const Navbar = () => {
     return(
         <>
-            <div className="pt-12 py-4 px-[60px] text-white fixed w-full top-0 z-50">
-                <div className="flex justify-between items-center">
+            <div className="pt-12 py-4 px-14 text-white fixed max-lg:absolute w-full top-0 z-50 max-sm:px-5 max-sm:pt-5">
+                <div className="flex justify-between items-center max-sm:flex-col max-sm:gap-7">
                     <div>
                         <Image
                             src='Logo.svg'

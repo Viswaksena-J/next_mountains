@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased text-white leading-[1.4]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased text-white leading-snug`}
       >
         <Navbar/>
         <MediaSection/>

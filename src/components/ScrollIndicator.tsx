@@ -35,7 +35,7 @@ const ScrollIndicator = () => {
     }, [sections]);
 
     return (
-        <div className="fixed z-10 top-[250px] right-16 flex items-center">
+        <div className="fixed z-10 top-[250px] right-16 flex items-center max-sm:right-7">
             <div className="flex flex-col items-end mr-3">
                 {sections.map(({ id, label }) => (
                     <a
